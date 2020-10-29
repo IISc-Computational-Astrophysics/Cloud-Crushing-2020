@@ -13,10 +13,10 @@ from scipy import interpolate
 
 
 
-t=[0,7,17,33,66,97]###########################
-t1=[0.0,1.0,3.0,6.0,12.0,18.0]##################################3
+t=[0,7,17,33,66,97]
+t1=[0.0,1.0,3.0,6.0,12.0,18.0]
 
-dx=1.0##############################################IMPORTANT
+dx=1.0
 binning=100
 
 kB = 1.3807e-16 #Boltzman's Constant in CGS
@@ -180,5 +180,5 @@ plt.ylabel('Cooling Rate',fontsize=22)
 plt.tick_params(axis='both', which='major', labelsize=18)
 plt.tick_params(axis='both', which='minor', labelsize=14)
 plt.tight_layout()  
-plt.savefig('Cooling Rate_new',transparent=True)
+plt.savefig('Cooling Rate',transparent=True)
 
